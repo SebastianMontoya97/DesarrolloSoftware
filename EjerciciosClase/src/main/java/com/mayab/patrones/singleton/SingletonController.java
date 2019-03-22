@@ -9,7 +9,7 @@ package com.mayab.patrones.singleton;
  *
  * @author Sebastian M.M
  */
-public class Control {
+public class SingletonController {
 
     /**
      * @param args the command line arguments

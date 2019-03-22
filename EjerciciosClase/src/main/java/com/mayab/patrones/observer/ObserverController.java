@@ -9,7 +9,7 @@ package com.mayab.patrones.observer;
  *
  * @author Sebastian M.M
  */
-public class Controller {
+public class ObserverController {
 
     /**
      * @param args the command line arguments

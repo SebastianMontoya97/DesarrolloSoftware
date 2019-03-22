@@ -9,7 +9,7 @@ package com.mayab.patrones.decorator;
  *
  * @author Sebastian M.M
  */
-public class Controller {
+public class DecoratorController {
 
     /**
      * @param args the command line arguments
