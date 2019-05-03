@@ -13,6 +13,6 @@ public abstract class trianguloCreator {
     protected abstract Triangulo createTriangle(String type);
     public Triangulo calcularMedidas(String type){
         Triangulo triangulo = createTriangle(type);
-        return null;
+        return triangulo;
     }
 }

@@ -10,5 +10,10 @@ package com.mayab.patrones.factoryMethod;
  * @author Sebastian M.M
  */
 public class EqTri extends Triangulo{
-    
+    public EqTri(){
+        this.name = "Equilatero";
+        this.lados[0] = 10;
+        this.lados[1] = 10;
+        this.lados[2] = 10;
+    }
 }

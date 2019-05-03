@@ -10,5 +10,10 @@ package com.mayab.patrones.factoryMethod;
  * @author Sebastian M.M
  */
 public class EscTri extends Triangulo{
-    
+    public EscTri(){
+        this.name="Escaleno";
+        this.lados[0]=10;
+        this.lados[1]=12;
+        this.lados[2]=15;
+    }
 }

@@ -10,8 +10,8 @@ package com.mayab.patrones.factoryMethod;
  * @author Sebastian M.M
  */
 public class Triangulo {
-    private String name;
-    private int[] lados;
+    public String name;
+    public  int[] lados = new int[3];
     public void calcularArea(){
         double area=0;
         double s=0;
@@ -29,5 +29,8 @@ public class Triangulo {
             perimetro=perimetro+lados[i];
         }
         System.out.println("PERIMETRO: "+perimetro);
+    }
+    public String getName(){
+        return name;
     }
 }

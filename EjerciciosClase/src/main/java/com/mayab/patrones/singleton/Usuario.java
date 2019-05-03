@@ -43,7 +43,7 @@ public class Usuario {
             System.out.println("Creando instancia unica de usuario");
             instance = new Usuario(nombre, apellido);
         }
-        System.out.println("Regresando instancia de usuario");
+        System.out.println("Regresando instancia de usuario "+nombre);
         return instance;
     }
     

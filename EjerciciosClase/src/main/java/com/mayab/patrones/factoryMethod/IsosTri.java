@@ -10,5 +10,10 @@ package com.mayab.patrones.factoryMethod;
  * @author Sebastian M.M
  */
 public class IsosTri extends Triangulo{
-    
+    public IsosTri(){
+        this.name="Isosceles";
+        this.lados[0]=10;
+        this.lados[1]=10;
+        this.lados[2]=8;
+    }
 }
