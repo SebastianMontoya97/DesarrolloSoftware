@@ -27,8 +27,10 @@ public class SingletonController {
         user.logOut();
         System.out.println(user.getNombre()+" se encuentra Logeado?");
         System.out.println(user.getLogeado());
-        System.out.println("El usuario 2 no ha sido logeado, debería regresar falso al checar si se encuentra logeado");
+        System.out.println("Ahora logeamos al usuario 1 que es la instancia unica, Sebastian y vamos a checar si el usuario 2 se encuentra logeado y como trabajamos con una instancia unica cualquier cambio se ve reflejado");
+        user.logIN();
         System.out.println(user2.getLogeado());
+        System.out.println("Apellido de usuario 2: "+user2.getApellido()); System.out.println("Nombre de usuario 2:"+user2.getNombre());
         
         
     }
