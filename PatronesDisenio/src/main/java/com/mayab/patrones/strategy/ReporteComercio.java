@@ -9,10 +9,12 @@ package com.mayab.patrones.strategy;
  *
  * @author Sebastian M.M
  */
-public abstract class Reporte {
-    public SortBehaviour sort;
-    public void setSortBehaviour(SortBehaviour sort){
-        this.sort=sort;
+public class ReporteComercio extends Reporte{
+     public ReporteComercio(){
+        this.sort = new SortComercio();
     }
-    public abstract void transacciones();
+    @Override
+    public void transacciones(){
+    sort.sorting();
+    }
 }

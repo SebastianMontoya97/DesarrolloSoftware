@@ -13,7 +13,7 @@ import java.util.*;
  */
 public class SortCantidad implements SortBehaviour{
     @Override
-    public void sorting(ArrayList <Transaccion> transacciones) {
+    public void sorting() {
         System.out.println("Sort de Cantidad");
        /* ArrayList comercio = new ArrayList <String>();
         for(int i=0;i<transacciones.size();i++){

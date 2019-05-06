@@ -10,5 +10,5 @@ import java.util.ArrayList;
  * @author Sebastian M.M
  */
 public interface SortBehaviour {
-   public void sorting (ArrayList <Transaccion> transacciones);   
+   public void sorting ();   
 }

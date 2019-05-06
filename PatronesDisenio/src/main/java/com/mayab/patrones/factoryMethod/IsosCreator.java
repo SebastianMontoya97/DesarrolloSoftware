@@ -9,7 +9,7 @@ package com.mayab.patrones.factoryMethod;
  *
  * @author Sebastian M.M
  */
-public class IsosCreator extends trianguloCreator {
+public class IsosCreator extends TrianguloCreator {
 @Override
  public Triangulo createTriangle (String type){
      if(type.equals("Isosceles")){

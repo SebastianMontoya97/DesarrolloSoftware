@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class SortFecha implements SortBehaviour{
     @Override
-    public void sorting(ArrayList <Transaccion> transacciones) {
+    public void sorting() {
         System.out.println("Sort de Fecha");
        /* ArrayList comercio = new ArrayList <String>();
         for(int i=0;i<transacciones.size();i++){

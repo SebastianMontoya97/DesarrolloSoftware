@@ -11,7 +11,7 @@ import java.util.*;
  */
 public class SortCategoria implements SortBehaviour{
     @Override
-    public void sorting(ArrayList <Transaccion> transacciones) {
+    public void sorting() {
         System.out.println("Sort de Categoria");
        /* ArrayList comercio = new ArrayList <String>();
         for(int i=0;i<transacciones.size();i++){

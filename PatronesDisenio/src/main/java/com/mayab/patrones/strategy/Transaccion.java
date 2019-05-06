@@ -14,6 +14,12 @@ public class Transaccion {
     public String comercio;
     public double cantidad;
     public String categoria;
+    public Transaccion(String fecha, String comercio, double cantidad, String categoria){
+        this.fecha=fecha;
+        this.comercio=comercio;
+        this.cantidad=cantidad;
+        this.categoria=categoria;
+    }
     public String getFecha(){
         return this.fecha;
     }

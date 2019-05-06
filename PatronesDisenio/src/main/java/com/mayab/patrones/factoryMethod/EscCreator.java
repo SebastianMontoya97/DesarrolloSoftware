@@ -9,7 +9,7 @@ package com.mayab.patrones.factoryMethod;
  *
  * @author Sebastian M.M
  */
-public class EscCreator extends trianguloCreator {
+public class EscCreator extends TrianguloCreator {
 @Override
 public Triangulo createTriangle (String type){
      if(type.equals("Escaleno")){

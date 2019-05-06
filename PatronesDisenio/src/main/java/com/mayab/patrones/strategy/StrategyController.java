@@ -14,15 +14,15 @@ public class StrategyController {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ArrayList<Integer> al = new ArrayList<Integer>(); 
-        al.add(1233); 
-        al.add(54235); 
-        al.add(1231); 
-        al.add(12); 
-        al.add(121); 
-        Collections.sort(al);
-        System.out.println("ORDENADO: ");
-        System.out.println(al);
+        ReporteCantidad rcantidad = new ReporteCantidad();
+        ReporteCategoria rcategoria = new ReporteCategoria();
+        ReporteComercio rcomercio = new ReporteComercio();
+        ReporteFecha rfecha = new ReporteFecha();
+        
+        rcantidad.transacciones();
+        rcategoria.transacciones();
+        rcomercio.transacciones();
+        rfecha.transacciones();
     }
     
 }

@@ -12,6 +12,10 @@ import java.util.ArrayList;
 public class CuentaBanco {
     public double saldo;
     public ArrayList <Transaccion> transacciones;
+    
+    public CuentaBanco(){
+        this.saldo=0;
+    }
     public double getSaldo(){
         return this.saldo;
     }

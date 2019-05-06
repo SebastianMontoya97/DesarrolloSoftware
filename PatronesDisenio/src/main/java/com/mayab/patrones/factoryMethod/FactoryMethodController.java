@@ -15,9 +15,9 @@ public class FactoryMethodController {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        trianguloCreator escCreator = new EscCreator();
-        trianguloCreator eqCreator = new EqCreator();
-        trianguloCreator isosCreator = new IsosCreator();
+        TrianguloCreator escCreator = new EscCreator();
+        TrianguloCreator eqCreator = new EqCreator();
+        TrianguloCreator isosCreator = new IsosCreator();
         
         Triangulo triangulo = escCreator.createTriangle("Escaleno");
         System.out.println("Tipo de triangulo: "+triangulo.getName());

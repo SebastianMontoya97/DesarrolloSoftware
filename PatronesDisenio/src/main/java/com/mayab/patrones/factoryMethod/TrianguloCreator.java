@@ -9,7 +9,7 @@ package com.mayab.patrones.factoryMethod;
  *
  * @author Sebastian M.M
  */
-public abstract class trianguloCreator {
+public abstract class TrianguloCreator {
     protected abstract Triangulo createTriangle(String type);
     public Triangulo calcularMedidas(String type){
         Triangulo triangulo = createTriangle(type);

@@ -9,7 +9,7 @@ package com.mayab.patrones.factoryMethod;
  *
  * @author Sebastian M.M
  */
-public class EqCreator extends trianguloCreator {
+public class EqCreator extends TrianguloCreator {
 @Override
 public Triangulo createTriangle (String type){
      if(type.equals("Equilatero")){
