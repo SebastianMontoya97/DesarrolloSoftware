@@ -11,8 +11,7 @@ import java.util.ArrayList;
  */
 public class CuentaBanco {
     public double saldo;
-    public ArrayList <Transaccion> transacciones;
-    
+    public ArrayList <Transaccion> transacciones = new ArrayList();
     public CuentaBanco(){
         this.saldo=0;
     }
@@ -24,5 +23,22 @@ public class CuentaBanco {
     }
     public void agregarTransaccion(Transaccion transaccion){
         transacciones.add(transaccion);
+    }
+    public void generarReporte(String tipo){
+        if(tipo == "Cantidad"){
+            ReporteCantidad rcantidad = new ReporteCantidad();
+            rcantidad.transacciones();
+        }else if(tipo == "Categoria"){
+            ReporteCategoria rcategoria = new ReporteCategoria();
+            rcategoria.transacciones();
+        }else if(tipo == "Comercio"){
+           ReporteComercio rcomercio = new ReporteComercio();
+           rcomercio.transacciones();
+        }else if(tipo == "Fecha"){
+            ReporteFecha rfecha = new ReporteFecha();
+            rfecha.transacciones();
+        }else{
+            System.out.println("No existe dicho tipo de reporte");
+        }
     }
 }
