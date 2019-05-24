@@ -10,8 +10,8 @@ package com.mayab.patrones.observer;
  * @author Sebastian M.M
  */
 public interface Observable{
-    
     public void addObserverToList(Observer p);
     public void deleteObserverFromList(Observer p);
     public void notifyObservers();
+    
 }
